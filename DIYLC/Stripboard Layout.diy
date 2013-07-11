@@ -127,7 +127,7 @@
       <size reference="../../org.diylc.components.connectivity.TraceCut[3]/size"/>
       <fillColor reference="../../org.diylc.components.connectivity.TraceCut[3]/fillColor"/>
       <borderColor reference="../../org.diylc.components.connectivity.TraceCut[3]/borderColor"/>
-      <point x="5.3" y="3.6"/>
+      <point x="5.4" y="3.6"/>
     </org.diylc.components.connectivity.TraceCut>
     <org.diylc.components.connectivity.TraceCut>
       <name>Cut10</name>
@@ -229,7 +229,7 @@
         <blue>0</blue>
         <alpha>255</alpha>
       </borderColor>
-      <point x="6.0" y="3.4"/>
+      <point x="5.9" y="3.4"/>
     </org.diylc.components.connectivity.TraceCut>
     <org.diylc.components.connectivity.Eyelet>
       <name>Eyelet3</name>
@@ -1836,6 +1836,54 @@
       <name>L15</name>
       <point x="6.7" y="3.6"/>
       <text>DRIVE_W</text>
+      <font>
+        <attributes>
+          <entry>
+            <awt-text-attribute>posture</awt-text-attribute>
+            <null/>
+          </entry>
+          <entry>
+            <awt-text-attribute>size</awt-text-attribute>
+            <float>14.0</float>
+          </entry>
+          <entry>
+            <awt-text-attribute>family</awt-text-attribute>
+            <string>Tahoma</string>
+          </entry>
+          <entry>
+            <awt-text-attribute>tracking</awt-text-attribute>
+            <null/>
+          </entry>
+          <entry>
+            <awt-text-attribute>width</awt-text-attribute>
+            <null/>
+          </entry>
+          <entry>
+            <awt-text-attribute>superscript</awt-text-attribute>
+            <null/>
+          </entry>
+          <entry>
+            <awt-text-attribute>transform</awt-text-attribute>
+            <null/>
+          </entry>
+          <entry>
+            <awt-text-attribute>weight</awt-text-attribute>
+            <null/>
+          </entry>
+        </attributes>
+      </font>
+      <color>
+        <red>0</red>
+        <green>0</green>
+        <blue>0</blue>
+        <alpha>255</alpha>
+      </color>
+      <center>true</center>
+    </org.diylc.components.misc.Label>
+    <org.diylc.components.misc.Label>
+      <name>L16</name>
+      <point x="5.2" y="4.1"/>
+      <text>220K</text>
       <font>
         <attributes>
           <entry>
