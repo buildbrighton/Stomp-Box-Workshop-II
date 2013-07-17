@@ -1162,8 +1162,8 @@
     </org.diylc.components.connectivity.Jumper>
     <org.diylc.components.misc.Label>
       <name>L3</name>
-      <point x="4.205" y="4.0"/>
-      <text>Input</text>
+      <point x="4.08" y="4.015"/>
+      <text>EFFECT INPUT</text>
       <font>
         <attributes>
           <entry>
@@ -1210,8 +1210,8 @@
     </org.diylc.components.misc.Label>
     <org.diylc.components.misc.Label>
       <name>L1</name>
-      <point x="6.7" y="4.0"/>
-      <text>Output</text>
+      <point x="6.855" y="4.005"/>
+      <text>EFFECT OUTPUT</text>
       <font>
         <attributes>
           <entry>
