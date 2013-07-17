@@ -614,8 +614,8 @@
         <unit class="org.diylc.core.measures.SizeUnit">in</unit>
       </length>
       <points>
-        <java.awt.Point x="4.7" y="4.0"/>
         <java.awt.Point x="4.7" y="4.1"/>
+        <java.awt.Point x="4.7" y="4.0"/>
       </points>
       <bodyColor>
         <red>234</red>
@@ -646,9 +646,9 @@
         <unit class="org.diylc.core.measures.VoltageUnit">V</unit>
       </voltageNew>
       <markerColor>
-        <red>128</red>
-        <green>128</green>
-        <blue>128</blue>
+        <red>0</red>
+        <green>0</green>
+        <blue>0</blue>
         <alpha>255</alpha>
       </markerColor>
       <tickColor>
@@ -1096,9 +1096,9 @@
         <unit class="org.diylc.core.measures.VoltageUnit">V</unit>
       </voltageNew>
       <markerColor>
-        <red>128</red>
-        <green>128</green>
-        <blue>128</blue>
+        <red>0</red>
+        <green>0</green>
+        <blue>0</blue>
         <alpha>255</alpha>
       </markerColor>
       <tickColor>
@@ -1160,30 +1160,418 @@
         <alpha>255</alpha>
       </color>
     </org.diylc.components.connectivity.Jumper>
+    <org.diylc.components.passive.PotentiometerPanel>
+      <name>STAB</name>
+      <alpha>127</alpha>
+      <controlPoints>
+        <java.awt.Point x="3.3" y="2.9"/>
+        <java.awt.Point x="3.45" y="2.9"/>
+        <java.awt.Point x="3.6" y="2.9"/>
+      </controlPoints>
+      <resistance>
+        <value>4.7</value>
+        <unit class="org.diylc.core.measures.ResistanceUnit">K</unit>
+      </resistance>
+      <orientation>DEFAULT</orientation>
+      <taper>LIN</taper>
+      <bodyDiameter>
+        <value>0.5</value>
+        <unit class="org.diylc.core.measures.SizeUnit">in</unit>
+      </bodyDiameter>
+      <spacing>
+        <value>0.15</value>
+        <unit class="org.diylc.core.measures.SizeUnit">in</unit>
+      </spacing>
+      <lugDiameter>
+        <value>0.1</value>
+        <unit class="org.diylc.core.measures.SizeUnit">in</unit>
+      </lugDiameter>
+      <bodyColor>
+        <red>182</red>
+        <green>182</green>
+        <blue>182</blue>
+        <alpha>255</alpha>
+      </bodyColor>
+      <borderColor>
+        <red>128</red>
+        <green>128</green>
+        <blue>128</blue>
+        <alpha>255</alpha>
+      </borderColor>
+    </org.diylc.components.passive.PotentiometerPanel>
+    <org.diylc.components.connectivity.Jumper>
+      <name>J3</name>
+      <alpha>127</alpha>
+      <points>
+        <java.awt.Point x="3.3" y="2.9"/>
+        <java.awt.Point x="3.45" y="2.905"/>
+      </points>
+      <bodyColor>
+        <red>255</red>
+        <green>255</green>
+        <blue>255</blue>
+        <alpha>255</alpha>
+      </bodyColor>
+      <borderColor>
+        <red>0</red>
+        <green>0</green>
+        <blue>0</blue>
+        <alpha>255</alpha>
+      </borderColor>
+      <labelColor reference="../borderColor"/>
+      <display>VALUE</display>
+      <color>
+        <red>0</red>
+        <green>0</green>
+        <blue>255</blue>
+        <alpha>255</alpha>
+      </color>
+    </org.diylc.components.connectivity.Jumper>
+    <org.diylc.components.passive.PotentiometerPanel>
+      <name>GATE</name>
+      <alpha>127</alpha>
+      <controlPoints>
+        <java.awt.Point x="4.3" y="2.9"/>
+        <java.awt.Point x="4.45" y="2.9"/>
+        <java.awt.Point x="4.6" y="2.9"/>
+      </controlPoints>
+      <resistance>
+        <value>10.0</value>
+        <unit class="org.diylc.core.measures.ResistanceUnit">K</unit>
+      </resistance>
+      <orientation>DEFAULT</orientation>
+      <taper>LIN</taper>
+      <bodyDiameter>
+        <value>0.5</value>
+        <unit class="org.diylc.core.measures.SizeUnit">in</unit>
+      </bodyDiameter>
+      <spacing>
+        <value>0.15</value>
+        <unit class="org.diylc.core.measures.SizeUnit">in</unit>
+      </spacing>
+      <lugDiameter>
+        <value>0.1</value>
+        <unit class="org.diylc.core.measures.SizeUnit">in</unit>
+      </lugDiameter>
+      <bodyColor>
+        <red>182</red>
+        <green>182</green>
+        <blue>182</blue>
+        <alpha>255</alpha>
+      </bodyColor>
+      <borderColor>
+        <red>128</red>
+        <green>128</green>
+        <blue>128</blue>
+        <alpha>255</alpha>
+      </borderColor>
+    </org.diylc.components.passive.PotentiometerPanel>
+    <org.diylc.components.connectivity.Jumper>
+      <name>J5</name>
+      <alpha>127</alpha>
+      <points>
+        <java.awt.Point x="4.3" y="2.9"/>
+        <java.awt.Point x="4.45" y="2.905"/>
+      </points>
+      <bodyColor>
+        <red>255</red>
+        <green>255</green>
+        <blue>255</blue>
+        <alpha>255</alpha>
+      </bodyColor>
+      <borderColor>
+        <red>0</red>
+        <green>0</green>
+        <blue>0</blue>
+        <alpha>255</alpha>
+      </borderColor>
+      <labelColor reference="../borderColor"/>
+      <display>VALUE</display>
+      <color>
+        <red>0</red>
+        <green>0</green>
+        <blue>255</blue>
+        <alpha>255</alpha>
+      </color>
+    </org.diylc.components.connectivity.Jumper>
+    <org.diylc.components.passive.PotentiometerPanel>
+      <name>COMP</name>
+      <alpha>127</alpha>
+      <controlPoints>
+        <java.awt.Point x="5.31" y="2.895"/>
+        <java.awt.Point x="5.46" y="2.895"/>
+        <java.awt.Point x="5.61" y="2.895"/>
+      </controlPoints>
+      <resistance>
+        <value>10.0</value>
+        <unit class="org.diylc.core.measures.ResistanceUnit">K</unit>
+      </resistance>
+      <orientation>DEFAULT</orientation>
+      <taper>LIN</taper>
+      <bodyDiameter>
+        <value>0.5</value>
+        <unit class="org.diylc.core.measures.SizeUnit">in</unit>
+      </bodyDiameter>
+      <spacing>
+        <value>0.15</value>
+        <unit class="org.diylc.core.measures.SizeUnit">in</unit>
+      </spacing>
+      <lugDiameter>
+        <value>0.1</value>
+        <unit class="org.diylc.core.measures.SizeUnit">in</unit>
+      </lugDiameter>
+      <bodyColor>
+        <red>182</red>
+        <green>182</green>
+        <blue>182</blue>
+        <alpha>255</alpha>
+      </bodyColor>
+      <borderColor>
+        <red>128</red>
+        <green>128</green>
+        <blue>128</blue>
+        <alpha>255</alpha>
+      </borderColor>
+    </org.diylc.components.passive.PotentiometerPanel>
+    <org.diylc.components.connectivity.Jumper>
+      <name>J6</name>
+      <alpha>127</alpha>
+      <points>
+        <java.awt.Point x="5.31" y="2.895"/>
+        <java.awt.Point x="5.46" y="2.9"/>
+      </points>
+      <bodyColor>
+        <red>255</red>
+        <green>255</green>
+        <blue>255</blue>
+        <alpha>255</alpha>
+      </bodyColor>
+      <borderColor>
+        <red>0</red>
+        <green>0</green>
+        <blue>0</blue>
+        <alpha>255</alpha>
+      </borderColor>
+      <labelColor reference="../borderColor"/>
+      <display>VALUE</display>
+      <color>
+        <red>0</red>
+        <green>0</green>
+        <blue>255</blue>
+        <alpha>255</alpha>
+      </color>
+    </org.diylc.components.connectivity.Jumper>
+    <org.diylc.components.passive.PotentiometerPanel>
+      <name>DRIVE</name>
+      <alpha>127</alpha>
+      <controlPoints>
+        <java.awt.Point x="6.315" y="2.9"/>
+        <java.awt.Point x="6.465" y="2.9"/>
+        <java.awt.Point x="6.615" y="2.9"/>
+      </controlPoints>
+      <resistance>
+        <value>10.0</value>
+        <unit class="org.diylc.core.measures.ResistanceUnit">K</unit>
+      </resistance>
+      <orientation>DEFAULT</orientation>
+      <taper>LIN</taper>
+      <bodyDiameter>
+        <value>0.5</value>
+        <unit class="org.diylc.core.measures.SizeUnit">in</unit>
+      </bodyDiameter>
+      <spacing>
+        <value>0.15</value>
+        <unit class="org.diylc.core.measures.SizeUnit">in</unit>
+      </spacing>
+      <lugDiameter>
+        <value>0.1</value>
+        <unit class="org.diylc.core.measures.SizeUnit">in</unit>
+      </lugDiameter>
+      <bodyColor>
+        <red>182</red>
+        <green>182</green>
+        <blue>182</blue>
+        <alpha>255</alpha>
+      </bodyColor>
+      <borderColor>
+        <red>128</red>
+        <green>128</green>
+        <blue>128</blue>
+        <alpha>255</alpha>
+      </borderColor>
+    </org.diylc.components.passive.PotentiometerPanel>
+    <org.diylc.components.passive.PotentiometerPanel>
+      <name>VOL</name>
+      <alpha>127</alpha>
+      <controlPoints>
+        <java.awt.Point x="7.315" y="2.9"/>
+        <java.awt.Point x="7.465" y="2.9"/>
+        <java.awt.Point x="7.615" y="2.9"/>
+      </controlPoints>
+      <resistance>
+        <value>4.7</value>
+        <unit class="org.diylc.core.measures.ResistanceUnit">K</unit>
+      </resistance>
+      <orientation>DEFAULT</orientation>
+      <taper>LIN</taper>
+      <bodyDiameter>
+        <value>0.5</value>
+        <unit class="org.diylc.core.measures.SizeUnit">in</unit>
+      </bodyDiameter>
+      <spacing>
+        <value>0.15</value>
+        <unit class="org.diylc.core.measures.SizeUnit">in</unit>
+      </spacing>
+      <lugDiameter>
+        <value>0.1</value>
+        <unit class="org.diylc.core.measures.SizeUnit">in</unit>
+      </lugDiameter>
+      <bodyColor>
+        <red>182</red>
+        <green>182</green>
+        <blue>182</blue>
+        <alpha>255</alpha>
+      </bodyColor>
+      <borderColor>
+        <red>128</red>
+        <green>128</green>
+        <blue>128</blue>
+        <alpha>255</alpha>
+      </borderColor>
+    </org.diylc.components.passive.PotentiometerPanel>
+    <org.diylc.components.passive.RadialElectrolytic>
+      <name>C3</name>
+      <alpha>79</alpha>
+      <length>
+        <value>0.15</value>
+        <unit class="org.diylc.core.measures.SizeUnit">in</unit>
+      </length>
+      <points>
+        <java.awt.Point x="6.665" y="3.05"/>
+        <java.awt.Point x="6.42" y="3.05"/>
+      </points>
+      <bodyColor>
+        <red>234</red>
+        <green>173</green>
+        <blue>234</blue>
+        <alpha>255</alpha>
+      </bodyColor>
+      <borderColor>
+        <red>163</red>
+        <green>121</green>
+        <blue>163</blue>
+        <alpha>255</alpha>
+      </borderColor>
+      <labelColor>
+        <red>0</red>
+        <green>0</green>
+        <blue>0</blue>
+        <alpha>255</alpha>
+      </labelColor>
+      <display>VALUE</display>
+      <value>
+        <value>10.0</value>
+        <unit class="org.diylc.core.measures.CapacitanceUnit">uF</unit>
+      </value>
+      <voltage>_63V</voltage>
+      <voltageNew>
+        <value>63.0</value>
+        <unit class="org.diylc.core.measures.VoltageUnit">V</unit>
+      </voltageNew>
+      <markerColor>
+        <red>0</red>
+        <green>0</green>
+        <blue>0</blue>
+        <alpha>255</alpha>
+      </markerColor>
+      <tickColor>
+        <red>255</red>
+        <green>255</green>
+        <blue>255</blue>
+        <alpha>255</alpha>
+      </tickColor>
+      <polarized>true</polarized>
+    </org.diylc.components.passive.RadialElectrolytic>
+    <org.diylc.components.connectivity.Jumper>
+      <name>J7</name>
+      <alpha>127</alpha>
+      <points>
+        <java.awt.Point x="6.66" y="3.05"/>
+        <java.awt.Point x="6.62" y="2.905"/>
+      </points>
+      <bodyColor>
+        <red>255</red>
+        <green>255</green>
+        <blue>255</blue>
+        <alpha>255</alpha>
+      </bodyColor>
+      <borderColor>
+        <red>0</red>
+        <green>0</green>
+        <blue>0</blue>
+        <alpha>255</alpha>
+      </borderColor>
+      <labelColor reference="../borderColor"/>
+      <display>VALUE</display>
+      <color>
+        <red>0</red>
+        <green>0</green>
+        <blue>255</blue>
+        <alpha>255</alpha>
+      </color>
+    </org.diylc.components.connectivity.Jumper>
+    <org.diylc.components.connectivity.Jumper>
+      <name>J9</name>
+      <alpha>127</alpha>
+      <points>
+        <java.awt.Point x="6.415" y="3.055"/>
+        <java.awt.Point x="6.465" y="2.9"/>
+      </points>
+      <bodyColor>
+        <red>255</red>
+        <green>255</green>
+        <blue>255</blue>
+        <alpha>255</alpha>
+      </bodyColor>
+      <borderColor>
+        <red>0</red>
+        <green>0</green>
+        <blue>0</blue>
+        <alpha>255</alpha>
+      </borderColor>
+      <labelColor reference="../borderColor"/>
+      <display>VALUE</display>
+      <color>
+        <red>0</red>
+        <green>0</green>
+        <blue>255</blue>
+        <alpha>255</alpha>
+      </color>
+    </org.diylc.components.connectivity.Jumper>
     <org.diylc.components.misc.Label>
       <name>L3</name>
-      <point x="4.3" y="4.0"/>
+      <point x="4.205" y="4.0"/>
       <text>Input</text>
       <font>
         <attributes>
           <entry>
-            <awt-text-attribute>posture</awt-text-attribute>
+            <awt-text-attribute>transform</awt-text-attribute>
             <null/>
-          </entry>
-          <entry>
-            <awt-text-attribute>size</awt-text-attribute>
-            <float>14.0</float>
           </entry>
           <entry>
             <awt-text-attribute>family</awt-text-attribute>
             <string>Tahoma</string>
           </entry>
           <entry>
-            <awt-text-attribute>tracking</awt-text-attribute>
+            <awt-text-attribute>size</awt-text-attribute>
+            <float>14.0</float>
+          </entry>
+          <entry>
+            <awt-text-attribute>weight</awt-text-attribute>
             <null/>
           </entry>
           <entry>
-            <awt-text-attribute>width</awt-text-attribute>
+            <awt-text-attribute>tracking</awt-text-attribute>
             <null/>
           </entry>
           <entry>
@@ -1191,11 +1579,11 @@
             <null/>
           </entry>
           <entry>
-            <awt-text-attribute>transform</awt-text-attribute>
+            <awt-text-attribute>posture</awt-text-attribute>
             <null/>
           </entry>
           <entry>
-            <awt-text-attribute>weight</awt-text-attribute>
+            <awt-text-attribute>width</awt-text-attribute>
             <null/>
           </entry>
         </attributes>
@@ -1215,23 +1603,23 @@
       <font>
         <attributes>
           <entry>
-            <awt-text-attribute>posture</awt-text-attribute>
+            <awt-text-attribute>transform</awt-text-attribute>
             <null/>
-          </entry>
-          <entry>
-            <awt-text-attribute>size</awt-text-attribute>
-            <float>14.0</float>
           </entry>
           <entry>
             <awt-text-attribute>family</awt-text-attribute>
             <string>Tahoma</string>
           </entry>
           <entry>
-            <awt-text-attribute>tracking</awt-text-attribute>
+            <awt-text-attribute>size</awt-text-attribute>
+            <float>14.0</float>
+          </entry>
+          <entry>
+            <awt-text-attribute>weight</awt-text-attribute>
             <null/>
           </entry>
           <entry>
-            <awt-text-attribute>width</awt-text-attribute>
+            <awt-text-attribute>tracking</awt-text-attribute>
             <null/>
           </entry>
           <entry>
@@ -1239,11 +1627,11 @@
             <null/>
           </entry>
           <entry>
-            <awt-text-attribute>transform</awt-text-attribute>
+            <awt-text-attribute>posture</awt-text-attribute>
             <null/>
           </entry>
           <entry>
-            <awt-text-attribute>weight</awt-text-attribute>
+            <awt-text-attribute>width</awt-text-attribute>
             <null/>
           </entry>
         </attributes>
@@ -1258,28 +1646,28 @@
     </org.diylc.components.misc.Label>
     <org.diylc.components.misc.Label>
       <name>L8</name>
-      <point x="4.3" y="4.2"/>
+      <point x="4.23" y="4.2"/>
       <text>GND</text>
       <font>
         <attributes>
           <entry>
-            <awt-text-attribute>posture</awt-text-attribute>
+            <awt-text-attribute>transform</awt-text-attribute>
             <null/>
-          </entry>
-          <entry>
-            <awt-text-attribute>size</awt-text-attribute>
-            <float>14.0</float>
           </entry>
           <entry>
             <awt-text-attribute>family</awt-text-attribute>
             <string>Tahoma</string>
           </entry>
           <entry>
-            <awt-text-attribute>tracking</awt-text-attribute>
+            <awt-text-attribute>size</awt-text-attribute>
+            <float>14.0</float>
+          </entry>
+          <entry>
+            <awt-text-attribute>weight</awt-text-attribute>
             <null/>
           </entry>
           <entry>
-            <awt-text-attribute>width</awt-text-attribute>
+            <awt-text-attribute>tracking</awt-text-attribute>
             <null/>
           </entry>
           <entry>
@@ -1287,11 +1675,11 @@
             <null/>
           </entry>
           <entry>
-            <awt-text-attribute>transform</awt-text-attribute>
+            <awt-text-attribute>posture</awt-text-attribute>
             <null/>
           </entry>
           <entry>
-            <awt-text-attribute>weight</awt-text-attribute>
+            <awt-text-attribute>width</awt-text-attribute>
             <null/>
           </entry>
         </attributes>
@@ -1306,28 +1694,28 @@
     </org.diylc.components.misc.Label>
     <org.diylc.components.misc.Label>
       <name>L9</name>
-      <point x="6.7" y="3.8"/>
-      <text>VOL_A</text>
+      <point x="6.685" y="3.8"/>
+      <text>VOL 3</text>
       <font>
         <attributes>
           <entry>
-            <awt-text-attribute>posture</awt-text-attribute>
+            <awt-text-attribute>transform</awt-text-attribute>
             <null/>
-          </entry>
-          <entry>
-            <awt-text-attribute>size</awt-text-attribute>
-            <float>14.0</float>
           </entry>
           <entry>
             <awt-text-attribute>family</awt-text-attribute>
             <string>Tahoma</string>
           </entry>
           <entry>
-            <awt-text-attribute>tracking</awt-text-attribute>
+            <awt-text-attribute>size</awt-text-attribute>
+            <float>14.0</float>
+          </entry>
+          <entry>
+            <awt-text-attribute>weight</awt-text-attribute>
             <null/>
           </entry>
           <entry>
-            <awt-text-attribute>width</awt-text-attribute>
+            <awt-text-attribute>tracking</awt-text-attribute>
             <null/>
           </entry>
           <entry>
@@ -1335,11 +1723,11 @@
             <null/>
           </entry>
           <entry>
-            <awt-text-attribute>transform</awt-text-attribute>
+            <awt-text-attribute>posture</awt-text-attribute>
             <null/>
           </entry>
           <entry>
-            <awt-text-attribute>weight</awt-text-attribute>
+            <awt-text-attribute>width</awt-text-attribute>
             <null/>
           </entry>
         </attributes>
@@ -1354,28 +1742,28 @@
     </org.diylc.components.misc.Label>
     <org.diylc.components.misc.Label>
       <name>L10</name>
-      <point x="6.7" y="3.9"/>
-      <text>VOL_W</text>
+      <point x="6.685" y="3.9"/>
+      <text>VOL 2</text>
       <font>
         <attributes>
           <entry>
-            <awt-text-attribute>posture</awt-text-attribute>
+            <awt-text-attribute>transform</awt-text-attribute>
             <null/>
-          </entry>
-          <entry>
-            <awt-text-attribute>size</awt-text-attribute>
-            <float>14.0</float>
           </entry>
           <entry>
             <awt-text-attribute>family</awt-text-attribute>
             <string>Tahoma</string>
           </entry>
           <entry>
-            <awt-text-attribute>tracking</awt-text-attribute>
+            <awt-text-attribute>size</awt-text-attribute>
+            <float>14.0</float>
+          </entry>
+          <entry>
+            <awt-text-attribute>weight</awt-text-attribute>
             <null/>
           </entry>
           <entry>
-            <awt-text-attribute>width</awt-text-attribute>
+            <awt-text-attribute>tracking</awt-text-attribute>
             <null/>
           </entry>
           <entry>
@@ -1383,11 +1771,11 @@
             <null/>
           </entry>
           <entry>
-            <awt-text-attribute>transform</awt-text-attribute>
+            <awt-text-attribute>posture</awt-text-attribute>
             <null/>
           </entry>
           <entry>
-            <awt-text-attribute>weight</awt-text-attribute>
+            <awt-text-attribute>width</awt-text-attribute>
             <null/>
           </entry>
         </attributes>
@@ -1402,28 +1790,28 @@
     </org.diylc.components.misc.Label>
     <org.diylc.components.misc.Label>
       <name>L11</name>
-      <point x="6.7" y="3.7"/>
-      <text>DRIVE_B</text>
+      <point x="6.72" y="3.7"/>
+      <text>DRIVE 1</text>
       <font>
         <attributes>
           <entry>
-            <awt-text-attribute>posture</awt-text-attribute>
+            <awt-text-attribute>transform</awt-text-attribute>
             <null/>
-          </entry>
-          <entry>
-            <awt-text-attribute>size</awt-text-attribute>
-            <float>14.0</float>
           </entry>
           <entry>
             <awt-text-attribute>family</awt-text-attribute>
             <string>Tahoma</string>
           </entry>
           <entry>
-            <awt-text-attribute>tracking</awt-text-attribute>
+            <awt-text-attribute>size</awt-text-attribute>
+            <float>14.0</float>
+          </entry>
+          <entry>
+            <awt-text-attribute>weight</awt-text-attribute>
             <null/>
           </entry>
           <entry>
-            <awt-text-attribute>width</awt-text-attribute>
+            <awt-text-attribute>tracking</awt-text-attribute>
             <null/>
           </entry>
           <entry>
@@ -1431,11 +1819,11 @@
             <null/>
           </entry>
           <entry>
-            <awt-text-attribute>transform</awt-text-attribute>
+            <awt-text-attribute>posture</awt-text-attribute>
             <null/>
           </entry>
           <entry>
-            <awt-text-attribute>weight</awt-text-attribute>
+            <awt-text-attribute>width</awt-text-attribute>
             <null/>
           </entry>
         </attributes>
@@ -1450,28 +1838,28 @@
     </org.diylc.components.misc.Label>
     <org.diylc.components.misc.Label>
       <name>L12</name>
-      <point x="4.245" y="3.7"/>
+      <point x="4.165" y="3.705"/>
       <text>LED_BRI</text>
       <font>
         <attributes>
           <entry>
-            <awt-text-attribute>posture</awt-text-attribute>
+            <awt-text-attribute>transform</awt-text-attribute>
             <null/>
-          </entry>
-          <entry>
-            <awt-text-attribute>size</awt-text-attribute>
-            <float>14.0</float>
           </entry>
           <entry>
             <awt-text-attribute>family</awt-text-attribute>
             <string>Tahoma</string>
           </entry>
           <entry>
-            <awt-text-attribute>tracking</awt-text-attribute>
+            <awt-text-attribute>size</awt-text-attribute>
+            <float>14.0</float>
+          </entry>
+          <entry>
+            <awt-text-attribute>weight</awt-text-attribute>
             <null/>
           </entry>
           <entry>
-            <awt-text-attribute>width</awt-text-attribute>
+            <awt-text-attribute>tracking</awt-text-attribute>
             <null/>
           </entry>
           <entry>
@@ -1479,11 +1867,11 @@
             <null/>
           </entry>
           <entry>
-            <awt-text-attribute>transform</awt-text-attribute>
+            <awt-text-attribute>posture</awt-text-attribute>
             <null/>
           </entry>
           <entry>
-            <awt-text-attribute>weight</awt-text-attribute>
+            <awt-text-attribute>width</awt-text-attribute>
             <null/>
           </entry>
         </attributes>
@@ -1498,28 +1886,28 @@
     </org.diylc.components.misc.Label>
     <org.diylc.components.misc.Label>
       <name>L13</name>
-      <point x="4.235" y="3.8"/>
+      <point x="4.155" y="3.8"/>
       <text>LED_DIM</text>
       <font>
         <attributes>
           <entry>
-            <awt-text-attribute>posture</awt-text-attribute>
+            <awt-text-attribute>transform</awt-text-attribute>
             <null/>
-          </entry>
-          <entry>
-            <awt-text-attribute>size</awt-text-attribute>
-            <float>14.0</float>
           </entry>
           <entry>
             <awt-text-attribute>family</awt-text-attribute>
             <string>Tahoma</string>
           </entry>
           <entry>
-            <awt-text-attribute>tracking</awt-text-attribute>
+            <awt-text-attribute>size</awt-text-attribute>
+            <float>14.0</float>
+          </entry>
+          <entry>
+            <awt-text-attribute>weight</awt-text-attribute>
             <null/>
           </entry>
           <entry>
-            <awt-text-attribute>width</awt-text-attribute>
+            <awt-text-attribute>tracking</awt-text-attribute>
             <null/>
           </entry>
           <entry>
@@ -1527,11 +1915,11 @@
             <null/>
           </entry>
           <entry>
-            <awt-text-attribute>transform</awt-text-attribute>
+            <awt-text-attribute>posture</awt-text-attribute>
             <null/>
           </entry>
           <entry>
-            <awt-text-attribute>weight</awt-text-attribute>
+            <awt-text-attribute>width</awt-text-attribute>
             <null/>
           </entry>
         </attributes>
@@ -1546,28 +1934,28 @@
     </org.diylc.components.misc.Label>
     <org.diylc.components.misc.Label>
       <name>L4</name>
-      <point x="6.7" y="4.2"/>
-      <text>GATE_A</text>
+      <point x="6.735" y="4.2"/>
+      <text>GATE 3/2</text>
       <font>
         <attributes>
           <entry>
-            <awt-text-attribute>posture</awt-text-attribute>
+            <awt-text-attribute>transform</awt-text-attribute>
             <null/>
-          </entry>
-          <entry>
-            <awt-text-attribute>size</awt-text-attribute>
-            <float>14.0</float>
           </entry>
           <entry>
             <awt-text-attribute>family</awt-text-attribute>
             <string>Tahoma</string>
           </entry>
           <entry>
-            <awt-text-attribute>tracking</awt-text-attribute>
+            <awt-text-attribute>size</awt-text-attribute>
+            <float>14.0</float>
+          </entry>
+          <entry>
+            <awt-text-attribute>weight</awt-text-attribute>
             <null/>
           </entry>
           <entry>
-            <awt-text-attribute>width</awt-text-attribute>
+            <awt-text-attribute>tracking</awt-text-attribute>
             <null/>
           </entry>
           <entry>
@@ -1575,11 +1963,11 @@
             <null/>
           </entry>
           <entry>
-            <awt-text-attribute>transform</awt-text-attribute>
+            <awt-text-attribute>posture</awt-text-attribute>
             <null/>
           </entry>
           <entry>
-            <awt-text-attribute>weight</awt-text-attribute>
+            <awt-text-attribute>width</awt-text-attribute>
             <null/>
           </entry>
         </attributes>
@@ -1594,28 +1982,28 @@
     </org.diylc.components.misc.Label>
     <org.diylc.components.misc.Label>
       <name>L5</name>
-      <point x="6.7" y="3.4"/>
-      <text>COMP_A</text>
+      <point x="6.75" y="3.4"/>
+      <text>COMP 3/2</text>
       <font>
         <attributes>
           <entry>
-            <awt-text-attribute>posture</awt-text-attribute>
+            <awt-text-attribute>transform</awt-text-attribute>
             <null/>
-          </entry>
-          <entry>
-            <awt-text-attribute>size</awt-text-attribute>
-            <float>14.0</float>
           </entry>
           <entry>
             <awt-text-attribute>family</awt-text-attribute>
             <string>Tahoma</string>
           </entry>
           <entry>
-            <awt-text-attribute>tracking</awt-text-attribute>
+            <awt-text-attribute>size</awt-text-attribute>
+            <float>14.0</float>
+          </entry>
+          <entry>
+            <awt-text-attribute>weight</awt-text-attribute>
             <null/>
           </entry>
           <entry>
-            <awt-text-attribute>width</awt-text-attribute>
+            <awt-text-attribute>tracking</awt-text-attribute>
             <null/>
           </entry>
           <entry>
@@ -1623,11 +2011,11 @@
             <null/>
           </entry>
           <entry>
-            <awt-text-attribute>transform</awt-text-attribute>
+            <awt-text-attribute>posture</awt-text-attribute>
             <null/>
           </entry>
           <entry>
-            <awt-text-attribute>weight</awt-text-attribute>
+            <awt-text-attribute>width</awt-text-attribute>
             <null/>
           </entry>
         </attributes>
@@ -1642,28 +2030,28 @@
     </org.diylc.components.misc.Label>
     <org.diylc.components.misc.Label>
       <name>L6</name>
-      <point x="4.2" y="3.4"/>
+      <point x="4.26" y="3.395"/>
       <text>9V</text>
       <font>
         <attributes>
           <entry>
-            <awt-text-attribute>posture</awt-text-attribute>
+            <awt-text-attribute>transform</awt-text-attribute>
             <null/>
-          </entry>
-          <entry>
-            <awt-text-attribute>size</awt-text-attribute>
-            <float>14.0</float>
           </entry>
           <entry>
             <awt-text-attribute>family</awt-text-attribute>
             <string>Tahoma</string>
           </entry>
           <entry>
-            <awt-text-attribute>tracking</awt-text-attribute>
+            <awt-text-attribute>size</awt-text-attribute>
+            <float>14.0</float>
+          </entry>
+          <entry>
+            <awt-text-attribute>weight</awt-text-attribute>
             <null/>
           </entry>
           <entry>
-            <awt-text-attribute>width</awt-text-attribute>
+            <awt-text-attribute>tracking</awt-text-attribute>
             <null/>
           </entry>
           <entry>
@@ -1671,11 +2059,11 @@
             <null/>
           </entry>
           <entry>
-            <awt-text-attribute>transform</awt-text-attribute>
+            <awt-text-attribute>posture</awt-text-attribute>
             <null/>
           </entry>
           <entry>
-            <awt-text-attribute>weight</awt-text-attribute>
+            <awt-text-attribute>width</awt-text-attribute>
             <null/>
           </entry>
         </attributes>
@@ -1691,27 +2079,27 @@
     <org.diylc.components.misc.Label>
       <name>L7</name>
       <point x="4.2" y="3.5"/>
-      <text>STAB_W</text>
+      <text>STAB 1</text>
       <font>
         <attributes>
           <entry>
-            <awt-text-attribute>posture</awt-text-attribute>
+            <awt-text-attribute>transform</awt-text-attribute>
             <null/>
-          </entry>
-          <entry>
-            <awt-text-attribute>size</awt-text-attribute>
-            <float>14.0</float>
           </entry>
           <entry>
             <awt-text-attribute>family</awt-text-attribute>
             <string>Tahoma</string>
           </entry>
           <entry>
-            <awt-text-attribute>tracking</awt-text-attribute>
+            <awt-text-attribute>size</awt-text-attribute>
+            <float>14.0</float>
+          </entry>
+          <entry>
+            <awt-text-attribute>weight</awt-text-attribute>
             <null/>
           </entry>
           <entry>
-            <awt-text-attribute>width</awt-text-attribute>
+            <awt-text-attribute>tracking</awt-text-attribute>
             <null/>
           </entry>
           <entry>
@@ -1719,11 +2107,11 @@
             <null/>
           </entry>
           <entry>
-            <awt-text-attribute>transform</awt-text-attribute>
+            <awt-text-attribute>posture</awt-text-attribute>
             <null/>
           </entry>
           <entry>
-            <awt-text-attribute>weight</awt-text-attribute>
+            <awt-text-attribute>width</awt-text-attribute>
             <null/>
           </entry>
         </attributes>
@@ -1738,28 +2126,28 @@
     </org.diylc.components.misc.Label>
     <org.diylc.components.misc.Label>
       <name>L14</name>
-      <point x="6.7" y="4.1"/>
-      <text>GATE_W</text>
+      <point x="6.71" y="4.1"/>
+      <text>GATE 1</text>
       <font>
         <attributes>
           <entry>
-            <awt-text-attribute>posture</awt-text-attribute>
+            <awt-text-attribute>transform</awt-text-attribute>
             <null/>
-          </entry>
-          <entry>
-            <awt-text-attribute>size</awt-text-attribute>
-            <float>14.0</float>
           </entry>
           <entry>
             <awt-text-attribute>family</awt-text-attribute>
             <string>Tahoma</string>
           </entry>
           <entry>
-            <awt-text-attribute>tracking</awt-text-attribute>
+            <awt-text-attribute>size</awt-text-attribute>
+            <float>14.0</float>
+          </entry>
+          <entry>
+            <awt-text-attribute>weight</awt-text-attribute>
             <null/>
           </entry>
           <entry>
-            <awt-text-attribute>width</awt-text-attribute>
+            <awt-text-attribute>tracking</awt-text-attribute>
             <null/>
           </entry>
           <entry>
@@ -1767,11 +2155,11 @@
             <null/>
           </entry>
           <entry>
-            <awt-text-attribute>transform</awt-text-attribute>
+            <awt-text-attribute>posture</awt-text-attribute>
             <null/>
           </entry>
           <entry>
-            <awt-text-attribute>weight</awt-text-attribute>
+            <awt-text-attribute>width</awt-text-attribute>
             <null/>
           </entry>
         </attributes>
@@ -1786,28 +2174,28 @@
     </org.diylc.components.misc.Label>
     <org.diylc.components.misc.Label>
       <name>L2</name>
-      <point x="6.7" y="3.5"/>
-      <text>COMP_W</text>
+      <point x="6.72" y="3.5"/>
+      <text>COMP 1</text>
       <font>
         <attributes>
           <entry>
-            <awt-text-attribute>posture</awt-text-attribute>
+            <awt-text-attribute>transform</awt-text-attribute>
             <null/>
-          </entry>
-          <entry>
-            <awt-text-attribute>size</awt-text-attribute>
-            <float>14.0</float>
           </entry>
           <entry>
             <awt-text-attribute>family</awt-text-attribute>
             <string>Tahoma</string>
           </entry>
           <entry>
-            <awt-text-attribute>tracking</awt-text-attribute>
+            <awt-text-attribute>size</awt-text-attribute>
+            <float>14.0</float>
+          </entry>
+          <entry>
+            <awt-text-attribute>weight</awt-text-attribute>
             <null/>
           </entry>
           <entry>
-            <awt-text-attribute>width</awt-text-attribute>
+            <awt-text-attribute>tracking</awt-text-attribute>
             <null/>
           </entry>
           <entry>
@@ -1815,11 +2203,11 @@
             <null/>
           </entry>
           <entry>
-            <awt-text-attribute>transform</awt-text-attribute>
+            <awt-text-attribute>posture</awt-text-attribute>
             <null/>
           </entry>
           <entry>
-            <awt-text-attribute>weight</awt-text-attribute>
+            <awt-text-attribute>width</awt-text-attribute>
             <null/>
           </entry>
         </attributes>
@@ -1834,28 +2222,28 @@
     </org.diylc.components.misc.Label>
     <org.diylc.components.misc.Label>
       <name>L15</name>
-      <point x="6.7" y="3.6"/>
-      <text>DRIVE_W</text>
+      <point x="6.725" y="3.605"/>
+      <text>DRIVE 3</text>
       <font>
         <attributes>
           <entry>
-            <awt-text-attribute>posture</awt-text-attribute>
+            <awt-text-attribute>transform</awt-text-attribute>
             <null/>
-          </entry>
-          <entry>
-            <awt-text-attribute>size</awt-text-attribute>
-            <float>14.0</float>
           </entry>
           <entry>
             <awt-text-attribute>family</awt-text-attribute>
             <string>Tahoma</string>
           </entry>
           <entry>
-            <awt-text-attribute>tracking</awt-text-attribute>
+            <awt-text-attribute>size</awt-text-attribute>
+            <float>14.0</float>
+          </entry>
+          <entry>
+            <awt-text-attribute>weight</awt-text-attribute>
             <null/>
           </entry>
           <entry>
-            <awt-text-attribute>width</awt-text-attribute>
+            <awt-text-attribute>tracking</awt-text-attribute>
             <null/>
           </entry>
           <entry>
@@ -1863,11 +2251,11 @@
             <null/>
           </entry>
           <entry>
-            <awt-text-attribute>transform</awt-text-attribute>
+            <awt-text-attribute>posture</awt-text-attribute>
             <null/>
           </entry>
           <entry>
-            <awt-text-attribute>weight</awt-text-attribute>
+            <awt-text-attribute>width</awt-text-attribute>
             <null/>
           </entry>
         </attributes>
@@ -1887,23 +2275,23 @@
       <font>
         <attributes>
           <entry>
-            <awt-text-attribute>posture</awt-text-attribute>
+            <awt-text-attribute>transform</awt-text-attribute>
             <null/>
-          </entry>
-          <entry>
-            <awt-text-attribute>size</awt-text-attribute>
-            <float>14.0</float>
           </entry>
           <entry>
             <awt-text-attribute>family</awt-text-attribute>
             <string>Tahoma</string>
           </entry>
           <entry>
-            <awt-text-attribute>tracking</awt-text-attribute>
+            <awt-text-attribute>size</awt-text-attribute>
+            <float>14.0</float>
+          </entry>
+          <entry>
+            <awt-text-attribute>weight</awt-text-attribute>
             <null/>
           </entry>
           <entry>
-            <awt-text-attribute>width</awt-text-attribute>
+            <awt-text-attribute>tracking</awt-text-attribute>
             <null/>
           </entry>
           <entry>
@@ -1911,11 +2299,539 @@
             <null/>
           </entry>
           <entry>
+            <awt-text-attribute>posture</awt-text-attribute>
+            <null/>
+          </entry>
+          <entry>
+            <awt-text-attribute>width</awt-text-attribute>
+            <null/>
+          </entry>
+        </attributes>
+      </font>
+      <color>
+        <red>0</red>
+        <green>0</green>
+        <blue>0</blue>
+        <alpha>255</alpha>
+      </color>
+      <center>true</center>
+    </org.diylc.components.misc.Label>
+    <org.diylc.components.misc.Label>
+      <name>L17</name>
+      <point x="3.785" y="2.9"/>
+      <text>STAB 1</text>
+      <font>
+        <attributes>
+          <entry>
             <awt-text-attribute>transform</awt-text-attribute>
             <null/>
           </entry>
           <entry>
+            <awt-text-attribute>family</awt-text-attribute>
+            <string>Tahoma</string>
+          </entry>
+          <entry>
+            <awt-text-attribute>size</awt-text-attribute>
+            <float>14.0</float>
+          </entry>
+          <entry>
             <awt-text-attribute>weight</awt-text-attribute>
+            <null/>
+          </entry>
+          <entry>
+            <awt-text-attribute>tracking</awt-text-attribute>
+            <null/>
+          </entry>
+          <entry>
+            <awt-text-attribute>superscript</awt-text-attribute>
+            <null/>
+          </entry>
+          <entry>
+            <awt-text-attribute>posture</awt-text-attribute>
+            <null/>
+          </entry>
+          <entry>
+            <awt-text-attribute>width</awt-text-attribute>
+            <null/>
+          </entry>
+        </attributes>
+      </font>
+      <color>
+        <red>0</red>
+        <green>0</green>
+        <blue>0</blue>
+        <alpha>255</alpha>
+      </color>
+      <center>true</center>
+    </org.diylc.components.misc.Label>
+    <org.diylc.components.misc.Label>
+      <name>L18</name>
+      <point x="3.19" y="2.905"/>
+      <text>9V</text>
+      <font>
+        <attributes>
+          <entry>
+            <awt-text-attribute>transform</awt-text-attribute>
+            <null/>
+          </entry>
+          <entry>
+            <awt-text-attribute>family</awt-text-attribute>
+            <string>Tahoma</string>
+          </entry>
+          <entry>
+            <awt-text-attribute>size</awt-text-attribute>
+            <float>14.0</float>
+          </entry>
+          <entry>
+            <awt-text-attribute>weight</awt-text-attribute>
+            <null/>
+          </entry>
+          <entry>
+            <awt-text-attribute>tracking</awt-text-attribute>
+            <null/>
+          </entry>
+          <entry>
+            <awt-text-attribute>superscript</awt-text-attribute>
+            <null/>
+          </entry>
+          <entry>
+            <awt-text-attribute>posture</awt-text-attribute>
+            <null/>
+          </entry>
+          <entry>
+            <awt-text-attribute>width</awt-text-attribute>
+            <null/>
+          </entry>
+        </attributes>
+      </font>
+      <color>
+        <red>0</red>
+        <green>0</green>
+        <blue>0</blue>
+        <alpha>255</alpha>
+      </color>
+      <center>true</center>
+    </org.diylc.components.misc.Label>
+    <org.diylc.components.misc.Label>
+      <name>L19</name>
+      <point x="4.785" y="2.9"/>
+      <text>GATE 1</text>
+      <font>
+        <attributes>
+          <entry>
+            <awt-text-attribute>transform</awt-text-attribute>
+            <null/>
+          </entry>
+          <entry>
+            <awt-text-attribute>family</awt-text-attribute>
+            <string>Tahoma</string>
+          </entry>
+          <entry>
+            <awt-text-attribute>size</awt-text-attribute>
+            <float>14.0</float>
+          </entry>
+          <entry>
+            <awt-text-attribute>weight</awt-text-attribute>
+            <null/>
+          </entry>
+          <entry>
+            <awt-text-attribute>tracking</awt-text-attribute>
+            <null/>
+          </entry>
+          <entry>
+            <awt-text-attribute>superscript</awt-text-attribute>
+            <null/>
+          </entry>
+          <entry>
+            <awt-text-attribute>posture</awt-text-attribute>
+            <null/>
+          </entry>
+          <entry>
+            <awt-text-attribute>width</awt-text-attribute>
+            <null/>
+          </entry>
+        </attributes>
+      </font>
+      <color>
+        <red>0</red>
+        <green>0</green>
+        <blue>0</blue>
+        <alpha>255</alpha>
+      </color>
+      <center>true</center>
+    </org.diylc.components.misc.Label>
+    <org.diylc.components.misc.Label>
+      <name>L21</name>
+      <point x="5.825" y="2.9"/>
+      <text>COMP 1</text>
+      <font>
+        <attributes>
+          <entry>
+            <awt-text-attribute>transform</awt-text-attribute>
+            <null/>
+          </entry>
+          <entry>
+            <awt-text-attribute>family</awt-text-attribute>
+            <string>Tahoma</string>
+          </entry>
+          <entry>
+            <awt-text-attribute>size</awt-text-attribute>
+            <float>14.0</float>
+          </entry>
+          <entry>
+            <awt-text-attribute>weight</awt-text-attribute>
+            <null/>
+          </entry>
+          <entry>
+            <awt-text-attribute>tracking</awt-text-attribute>
+            <null/>
+          </entry>
+          <entry>
+            <awt-text-attribute>superscript</awt-text-attribute>
+            <null/>
+          </entry>
+          <entry>
+            <awt-text-attribute>posture</awt-text-attribute>
+            <null/>
+          </entry>
+          <entry>
+            <awt-text-attribute>width</awt-text-attribute>
+            <null/>
+          </entry>
+        </attributes>
+      </font>
+      <color>
+        <red>0</red>
+        <green>0</green>
+        <blue>0</blue>
+        <alpha>255</alpha>
+      </color>
+      <center>true</center>
+    </org.diylc.components.misc.Label>
+    <org.diylc.components.misc.Label>
+      <name>L23</name>
+      <point x="6.815" y="2.995"/>
+      <text>DRIVE 1</text>
+      <font>
+        <attributes>
+          <entry>
+            <awt-text-attribute>transform</awt-text-attribute>
+            <null/>
+          </entry>
+          <entry>
+            <awt-text-attribute>family</awt-text-attribute>
+            <string>Tahoma</string>
+          </entry>
+          <entry>
+            <awt-text-attribute>size</awt-text-attribute>
+            <float>14.0</float>
+          </entry>
+          <entry>
+            <awt-text-attribute>weight</awt-text-attribute>
+            <null/>
+          </entry>
+          <entry>
+            <awt-text-attribute>tracking</awt-text-attribute>
+            <null/>
+          </entry>
+          <entry>
+            <awt-text-attribute>superscript</awt-text-attribute>
+            <null/>
+          </entry>
+          <entry>
+            <awt-text-attribute>posture</awt-text-attribute>
+            <null/>
+          </entry>
+          <entry>
+            <awt-text-attribute>width</awt-text-attribute>
+            <null/>
+          </entry>
+        </attributes>
+      </font>
+      <color>
+        <red>0</red>
+        <green>0</green>
+        <blue>0</blue>
+        <alpha>255</alpha>
+      </color>
+      <center>true</center>
+    </org.diylc.components.misc.Label>
+    <org.diylc.components.misc.Label>
+      <name>L24</name>
+      <point x="6.15" y="3.01"/>
+      <text>DRIVE 3</text>
+      <font>
+        <attributes>
+          <entry>
+            <awt-text-attribute>transform</awt-text-attribute>
+            <null/>
+          </entry>
+          <entry>
+            <awt-text-attribute>family</awt-text-attribute>
+            <string>Tahoma</string>
+          </entry>
+          <entry>
+            <awt-text-attribute>size</awt-text-attribute>
+            <float>14.0</float>
+          </entry>
+          <entry>
+            <awt-text-attribute>weight</awt-text-attribute>
+            <null/>
+          </entry>
+          <entry>
+            <awt-text-attribute>tracking</awt-text-attribute>
+            <null/>
+          </entry>
+          <entry>
+            <awt-text-attribute>superscript</awt-text-attribute>
+            <null/>
+          </entry>
+          <entry>
+            <awt-text-attribute>posture</awt-text-attribute>
+            <null/>
+          </entry>
+          <entry>
+            <awt-text-attribute>width</awt-text-attribute>
+            <null/>
+          </entry>
+        </attributes>
+      </font>
+      <color>
+        <red>0</red>
+        <green>0</green>
+        <blue>0</blue>
+        <alpha>255</alpha>
+      </color>
+      <center>true</center>
+    </org.diylc.components.misc.Label>
+    <org.diylc.components.misc.Label>
+      <name>L25</name>
+      <point x="7.125" y="2.855"/>
+      <text>VOL 3</text>
+      <font>
+        <attributes>
+          <entry>
+            <awt-text-attribute>transform</awt-text-attribute>
+            <null/>
+          </entry>
+          <entry>
+            <awt-text-attribute>family</awt-text-attribute>
+            <string>Tahoma</string>
+          </entry>
+          <entry>
+            <awt-text-attribute>size</awt-text-attribute>
+            <float>14.0</float>
+          </entry>
+          <entry>
+            <awt-text-attribute>weight</awt-text-attribute>
+            <null/>
+          </entry>
+          <entry>
+            <awt-text-attribute>tracking</awt-text-attribute>
+            <null/>
+          </entry>
+          <entry>
+            <awt-text-attribute>superscript</awt-text-attribute>
+            <null/>
+          </entry>
+          <entry>
+            <awt-text-attribute>posture</awt-text-attribute>
+            <null/>
+          </entry>
+          <entry>
+            <awt-text-attribute>width</awt-text-attribute>
+            <null/>
+          </entry>
+        </attributes>
+      </font>
+      <color>
+        <red>0</red>
+        <green>0</green>
+        <blue>0</blue>
+        <alpha>255</alpha>
+      </color>
+      <center>true</center>
+    </org.diylc.components.misc.Label>
+    <org.diylc.components.misc.Label>
+      <name>L26</name>
+      <point x="7.78" y="2.865"/>
+      <text>GND</text>
+      <font>
+        <attributes>
+          <entry>
+            <awt-text-attribute>transform</awt-text-attribute>
+            <null/>
+          </entry>
+          <entry>
+            <awt-text-attribute>family</awt-text-attribute>
+            <string>Tahoma</string>
+          </entry>
+          <entry>
+            <awt-text-attribute>size</awt-text-attribute>
+            <float>14.0</float>
+          </entry>
+          <entry>
+            <awt-text-attribute>weight</awt-text-attribute>
+            <null/>
+          </entry>
+          <entry>
+            <awt-text-attribute>tracking</awt-text-attribute>
+            <null/>
+          </entry>
+          <entry>
+            <awt-text-attribute>superscript</awt-text-attribute>
+            <null/>
+          </entry>
+          <entry>
+            <awt-text-attribute>posture</awt-text-attribute>
+            <null/>
+          </entry>
+          <entry>
+            <awt-text-attribute>width</awt-text-attribute>
+            <null/>
+          </entry>
+        </attributes>
+      </font>
+      <color>
+        <red>0</red>
+        <green>0</green>
+        <blue>0</blue>
+        <alpha>255</alpha>
+      </color>
+      <center>true</center>
+    </org.diylc.components.misc.Label>
+    <org.diylc.components.misc.Label>
+      <name>L20</name>
+      <point x="4.365" y="3.01"/>
+      <text>GATE 3/2</text>
+      <font>
+        <attributes>
+          <entry>
+            <awt-text-attribute>transform</awt-text-attribute>
+            <null/>
+          </entry>
+          <entry>
+            <awt-text-attribute>family</awt-text-attribute>
+            <string>Tahoma</string>
+          </entry>
+          <entry>
+            <awt-text-attribute>size</awt-text-attribute>
+            <float>14.0</float>
+          </entry>
+          <entry>
+            <awt-text-attribute>weight</awt-text-attribute>
+            <null/>
+          </entry>
+          <entry>
+            <awt-text-attribute>tracking</awt-text-attribute>
+            <null/>
+          </entry>
+          <entry>
+            <awt-text-attribute>superscript</awt-text-attribute>
+            <null/>
+          </entry>
+          <entry>
+            <awt-text-attribute>posture</awt-text-attribute>
+            <null/>
+          </entry>
+          <entry>
+            <awt-text-attribute>width</awt-text-attribute>
+            <null/>
+          </entry>
+        </attributes>
+      </font>
+      <color>
+        <red>0</red>
+        <green>0</green>
+        <blue>0</blue>
+        <alpha>255</alpha>
+      </color>
+      <center>true</center>
+    </org.diylc.components.misc.Label>
+    <org.diylc.components.misc.Label>
+      <name>L22</name>
+      <point x="5.375" y="3.01"/>
+      <text>COMP 3/2</text>
+      <font>
+        <attributes>
+          <entry>
+            <awt-text-attribute>transform</awt-text-attribute>
+            <null/>
+          </entry>
+          <entry>
+            <awt-text-attribute>family</awt-text-attribute>
+            <string>Tahoma</string>
+          </entry>
+          <entry>
+            <awt-text-attribute>size</awt-text-attribute>
+            <float>14.0</float>
+          </entry>
+          <entry>
+            <awt-text-attribute>weight</awt-text-attribute>
+            <null/>
+          </entry>
+          <entry>
+            <awt-text-attribute>tracking</awt-text-attribute>
+            <null/>
+          </entry>
+          <entry>
+            <awt-text-attribute>superscript</awt-text-attribute>
+            <null/>
+          </entry>
+          <entry>
+            <awt-text-attribute>posture</awt-text-attribute>
+            <null/>
+          </entry>
+          <entry>
+            <awt-text-attribute>width</awt-text-attribute>
+            <null/>
+          </entry>
+        </attributes>
+      </font>
+      <color>
+        <red>0</red>
+        <green>0</green>
+        <blue>0</blue>
+        <alpha>255</alpha>
+      </color>
+      <center>true</center>
+    </org.diylc.components.misc.Label>
+    <org.diylc.components.misc.Label>
+      <name>L27</name>
+      <point x="7.465" y="3.015"/>
+      <text>VOL 2</text>
+      <font>
+        <attributes>
+          <entry>
+            <awt-text-attribute>transform</awt-text-attribute>
+            <null/>
+          </entry>
+          <entry>
+            <awt-text-attribute>family</awt-text-attribute>
+            <string>Tahoma</string>
+          </entry>
+          <entry>
+            <awt-text-attribute>size</awt-text-attribute>
+            <float>14.0</float>
+          </entry>
+          <entry>
+            <awt-text-attribute>weight</awt-text-attribute>
+            <null/>
+          </entry>
+          <entry>
+            <awt-text-attribute>tracking</awt-text-attribute>
+            <null/>
+          </entry>
+          <entry>
+            <awt-text-attribute>superscript</awt-text-attribute>
+            <null/>
+          </entry>
+          <entry>
+            <awt-text-attribute>posture</awt-text-attribute>
+            <null/>
+          </entry>
+          <entry>
+            <awt-text-attribute>width</awt-text-attribute>
             <null/>
           </entry>
         </attributes>
